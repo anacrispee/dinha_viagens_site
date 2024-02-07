@@ -260,3 +260,136 @@ strong {
     font-family: 'Oooh Baby', cursive;
     font-size: 1.6rem;
 }
+
+/* Itineraries Section */
+
+#itinerariesSection {
+    max-width: 100%;
+    max-height: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+    padding-top: 3.2rem;
+    padding-bottom: 3.2rem;
+
+    position: relative;
+
+    background-color: #F0F1F3;
+    color: #002D43;
+    box-shadow: 5px -4px 7px 0px #00000040;    ;
+}
+
+.menuItinerariesContainer {
+    width: 100%;
+    padding-left: 8.2rem;
+    padding-right: 8.2rem;
+    padding-bottom: 1.6rem;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.menuItinerariesTitle {
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.menuItinerariesOptions {
+    display: flex;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+#roadItinerariesOption, #airItinerariesOption {
+    margin-right: 0.8rem;
+    margin-left: 0.8rem;
+}
+
+#roadItinerariesOption:hover, #airItinerariesOption:hover {
+    cursor: pointer;
+    color: #F48120;
+    border-bottom: solid 0.1rem #F48120;
+}
+
+#roadItinerariesContainer, #airItinerariesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.itineraryCard {
+    width: fit-content;
+    max-width: fit-content;
+    height: fit-content;
+    max-height: fit-content;
+
+    padding: 0.3rem;
+    margin: 1.4rem;
+
+    background-color: #FFFFFF;
+    border-radius: 0.4rem;
+}
+
+.itineraryCardImage {
+    border-radius: 0.8rem;
+}
+
+.itineraryCardTitle {
+    font-weight: 700;
+    font-size: 1rem;
+
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+
+    margin-top: 0.2rem;
+    margin-bottom: 0.8rem;
+
+}
+
+.tineraryCardSubTitleWrapper {
+    display: flex;
+    align-items: center;
+    
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+    padding-bottom: 0.8rem;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.itineraryCardSubtitle {
+    margin: 0;
+    padding-left: 0.4rem;
+
+    font-size: 0.8rem;
+}
+
+.localIcon {
+    width: 0.7rem;
+}
+
+
+
+
+
+
+
+
+
+/* Common settings */
+
+#homeSection, #aboutSection, #itinerariesSection {
+    -webkit-user-select:none;  
+    -moz-user-select:none;     
+    -ms-user-select:none;      
+    user-select:none;  
+}

@@ -22,6 +22,7 @@
 </head>
 
 <body>
+
     <nav>
         <div class="logoNavContainer">
             <img class="logoNav" src="utils/image_logo_dinha_nav.svg">
@@ -40,6 +41,7 @@
             </ul>
         </div>
     </nav>
+
     <section id="homeSection">
         <div class="homeTextContainer">
             <div class="homeTextWrapper">
@@ -56,10 +58,11 @@
             <img class="homeImage" src="utils/image_home_banner.png">
         </div>
     </section>
+
     <section id="aboutSection">
         <div class="aboutBackgroundCircle"></div>
         <div class="aboutImageWrapper">
-            <img class="aboutImage" src="/utils/aboutImage.svg">
+            <img class="aboutImage" src="/utils/image_about.svg">
         </div>
         <div class="aboutTextWrapper">
             <p class="aboutContentTitle">
@@ -85,31 +88,113 @@
             </p>
         </div>
     </section>
+
     <section id="itinerariesSection">
-        <div class="itinerariesContentWrapper">
-            <div class="menuItinerariesContainer">
-                <div class="menuItinerariesTitleContainer">
-                    <p class="menuItinerariesTitle">Viaje conosco</p>
-                </div>
-                <div class="menuItinerariesOptions">
-                    <ul>
-                        <li id="roadItinerariesOption">roteiros rodoviários</li>
-                        <li id="airItinerariesOption">roteiros aéreos</li>
-                    </ul>
+
+        <div class="menuItinerariesContainer">
+            <p class="menuItinerariesTitle">Viaje conosco</p>
+            <div class="menuItinerariesOptions">
+                    <p id="roadItinerariesOption">roteiros rodoviários</li>
+                    <p id="airItinerariesOption">roteiros aéreos</li>
+            </div>
+        </div>
+
+        <div id="roadItinerariesContainer">
+
+            <div class="itineraryCard">
+                <img class="itineraryCardImage"
+                    src="/utils/itineraries_images/road_itineraries/img_road_itineraries_ap_norte.svg">
+                <p class="itineraryCardTitle">Aparecida do Norte</p>
+                <div class="tineraryCardSubTitleWrapper">
+                    <img class="localIcon" src="/utils/icon_localization.svg">
+                    <p class="itineraryCardSubtitle">Aparecida do Norte - São Paulo</p>
                 </div>
             </div>
-            <div id="itinerariesContainer"></div>
-            <div class="itinerariesFooterContainer">
-                <div class="itinerariesCallToActionWrapper">
-                    <p class="itinerariesCalToActionText">
-                        Se interessou e quer saber mais?<br>
-                        Faça um orçamento conosco!
-                    </p>
-                    <button id="itinerariesCallToActionButton">Garanta já sua viagem!</button>
+
+            <div class="itineraryCard">
+                <img class="itineraryCardImage"
+                    src="/utils/itineraries_images/road_itineraries/img_road_itineraries_foz.svg">
+                <p class="itineraryCardTitle">Foz do Iguaçu</p>
+                <div class="tineraryCardSubTitleWrapper">
+                    <img class="localIcon" src="/utils/icon_localization.svg">
+                    <p class="itineraryCardSubtitle">Foz do Iguaçu - Paraná</p>
                 </div>
+            </div>
+
+            <div class="itineraryCard">
+                <img class="itineraryCardImage"
+                    src="/utils/itineraries_images/road_itineraries/img_road_itineraries_gramado.svg">
+                <p class="itineraryCardTitle">Gramado</p>
+                <div class="tineraryCardSubTitleWrapper">
+                    <img class="localIcon" src="/utils/icon_localization.svg">
+                    <p class="itineraryCardSubtitle">Gramado - Rio Grande do Sul</p>
+                </div>
+            </div>
+
+            <div class="itineraryCard">
+                <img class="itineraryCardImage"
+                    src="/utils/itineraries_images/road_itineraries/img_road_itineraries_ametista.svg">
+                <p class="itineraryCardTitle">Ametista do Sul</p>
+                <div class="tineraryCardSubTitleWrapper">
+                    <img class="localIcon" src="/utils/icon_localization.svg">
+                    <p class="itineraryCardSubtitle">Ametista do Sul - Rio Grande do Sul</p>
+                </div>
+            </div>
+
+            <div class="itineraryCard">
+                <img class="itineraryCardImage"
+                    src="/utils/itineraries_images/road_itineraries/img_road_itineraries_gravatal.svg">
+                <p class="itineraryCardTitle">Termas Internacional Gravatal</p>
+                <div class="tineraryCardSubTitleWrapper">
+                    <img class="localIcon" src="/utils/icon_localization.svg">
+                    <p class="itineraryCardSubtitle">Gravatal - Rio Grande do Sul</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="airItinerariesContainer">
+
+            <div class="itineraryCard">
+                <img class="itineraryCardImage" src="/utils/itineraries_images/air_itineraries/img_air_natal_rn.svg">
+                <p class="itineraryCardTitle">Natal</p>
+                <div class="tineraryCardSubTitleWrapper">
+                    <img class="localIcon" src="/utils/icon_localization.svg">
+                    <p class="itineraryCardSubtitle">Natal - Rio Grande do Norte</p>
+                </div>
+            </div>
+
+            <div class="itineraryCard">
+                <img class="itineraryCardImage" src="/utils/itineraries_images/air_itineraries/img_air_maceio.svg">
+                <p class="itineraryCardTitle">Maceió</p>
+                <div class="tineraryCardSubTitleWrapper">
+                    <img class="localIcon" src="/utils/icon_localization.svg">
+                    <p class="itineraryCardSubtitle">Maceió - Alagoas</p>
+                </div>
+            </div>
+
+            <div class="itineraryCard">
+                <img class="itineraryCardImage" src="/utils/itineraries_images/air_itineraries/img_air_lencois_mar.svg">
+                <p class="itineraryCardTitle">Lençóis Maranhenses</p>
+                <div class="tineraryCardSubTitleWrapper">
+                    <img class="localIcon" src="/utils/icon_localization.svg">
+                    <p class="itineraryCardSubtitle">Barreirinhas - Maranhão</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="itinerariesFooterContainer">
+            <div class="itinerariesCallToActionWrapper">
+                <p class="itinerariesCalToActionText">
+                    Se interessou e quer saber mais?<br>
+                    Faça um orçamento conosco!
+                </p>
+                <button id="itinerariesCallToActionButton">Garanta já sua viagem!</button>
             </div>
         </div>
     </section>
+
     <section id="valuesSection">
         <div class="valuesContentWrapper">
             <div class="valuesBoxes">
@@ -141,6 +226,7 @@
             </div>
         </div>
     </section>
+
     <section id="gallerySection">
         <div class="gallerySectionContainer">
             <div class="galleryInformationContainer">
@@ -168,6 +254,7 @@
             </div>
         </div>
     </section>
+
     <footer id="contactSection">
         <div class="footerInformationContainer">
             <div class="footerLgpdWrapper">
@@ -218,6 +305,7 @@
             </div>
         </div>
     </footer>
+
 </body>
 
 </html>
