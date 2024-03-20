@@ -1072,6 +1072,7 @@ strong {
 }
 
 .itineraryCardTitle {
+    width: 14rem;
     font-weight: 700;
     font-size: 1rem;
 
