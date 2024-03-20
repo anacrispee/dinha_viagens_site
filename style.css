@@ -746,12 +746,20 @@ nav {
     display: flex;
 }
 
-.itemsMenuNav {
+#itemsMenuNav {
     display: none;
+    position: fixed;
+    top: 4rem;
+    right: 0;
+    width: 15rem;
+    height: 18rem;
+    background-color: #002D43;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border-radius: 0.8rem;
 }
 
 .itemsMenuNavList {
-    display: flex;
+    display: block;
     padding: 0.2rem;
 
     list-style: none;
@@ -759,8 +767,8 @@ nav {
 }
 
 .itemMenu {
-    padding-left: 1.2rem;
-    padding-right: 1.2rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
 }
 
 /* Nav links */
