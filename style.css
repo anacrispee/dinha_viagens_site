@@ -6,6 +6,7 @@ html {
 body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
+    background-color: #002D43;
 }
 
 /* Nav */
@@ -741,7 +742,7 @@ nav {
     max-width: 10rem;
     width: 10rem;
     padding-top: 2rem;
-    padding-left: 1rem;
+    padding-left: 2rem;
 }
 
 #toggleMenuNav {
@@ -751,15 +752,15 @@ nav {
 .toggleMenuIcon {
     width: 4rem;
     max-width: 4rem;
-    padding-right: 1rem;
+    padding-right: 2rem;
 }
 
 #itemsMenuNav {
     display: none;
     position: fixed;
-    top: 4rem;
+    top: 8rem;
     right: 0;
-    width: 15rem;
+    width: 24rem;
     height: fit-content;
     background-color: #002D43;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
@@ -768,7 +769,7 @@ nav {
 
 .itemsMenuNavList {
     display: block;
-    padding: 0.2rem;
+    padding-left: 1.8rem;
 
     list-style: none;
     color: white;
@@ -866,9 +867,7 @@ nav {
 }
 
 #homeTravelWithUsButton {
-    margin-left: 0.4rem;
-    margin-right: 0.4rem;
-    margin-bottom: 0.4rem;
+    margin: 1rem;
 
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -876,7 +875,7 @@ nav {
     padding-right: 4rem;
 
     font-weight: 700;
-    font-size: 1.6rem;
+    font-size: 2.4rem;
     background-color: #F48120;
     color: #FFFFFF;
 
@@ -892,17 +891,15 @@ nav {
 }
 
 #homeExploreButton {
-    margin-left: 0.4rem;
-    margin-right: 0.4rem;
-    margin-top: 0.4rem;
+    margin: 1rem;
 
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1.8rem;
+    padding-bottom: 1.8rem;
     padding-left: 4rem;
     padding-right: 4rem;
 
     font-weight: 700;
-    font-size: 1.6rem;
+    font-size: 2.4rem;
     background-color: transparent;
     color: #F48120;
 
@@ -922,6 +919,7 @@ nav {
 
 .homeImage {
     max-width: 40rem;
+    width: 40rem;
 
     padding-top: 4rem;
     padding-bottom: 2rem;
@@ -939,7 +937,6 @@ nav {
 
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
 
     background-color: #002D43;
@@ -948,27 +945,30 @@ nav {
     padding-top: 1rem;
     padding-bottom: 3.6rem;
     text-align: center;
+    margin: 0;
 }
 
 .aboutImageWrapper {
-    padding-left: 0.8rem;
-    padding-right: 0.8rem;
-    padding-bottom: 0.8rem;
+    width: fit-content;
+    padding-right: 8rem;
 }
 
 .aboutImage {
-    max-width: 40rem;
+    max-width: 30rem;
+    width: 30rem;
+    padding-bottom: 1rem;
 }
 
 /* About Us Section Text*/
 
 .aboutTextWrapper {
-    width: 34rem;
-    max-width: 40rem;
+    width: 50rem;
+    max-width: 50rem;
     height: fit-content;
 
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    margin: 0;
 
     font-weight: 100;
 }
@@ -984,11 +984,12 @@ strong {
 
 .aboutContentTextItem {
     font-size: 2.3rem;
+    margin: 0;
 }
 
 .aboutContentQuote {
     font-family: 'Oooh Baby', cursive;
-    font-size: 2.6rem;
+    font-size: 2.8rem;
 }
 
 /* Itineraries Section */
@@ -1002,8 +1003,8 @@ strong {
     align-items: center;
     justify-content: center;
 
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     padding-top: 3.2rem;
     padding-bottom: 3.2rem;
 
@@ -1122,25 +1123,21 @@ strong {
 }
 
 .itinerariesFooterSpacer {
-    width: 1rem;
-    max-width: 1rem;
-    padding: 0;
-    margin: 0;
+    display: none;
 }
 
 .itinerariesFooterContainer {
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    padding-left: 5rem;
-    padding-right: 5rem;
-    text-align: end;
+    justify-content: center;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    text-align: center;
 }
 
 .itinerariesCallToActionWrapper {
-    width: 20rem;
-    max-width: 20rem;
-    min-width: 10rem;
+    width: 30rem;
+    max-width: 30rem;
     margin: 0;
     padding-top: 0.8rem;
     padding-bottom: 0.8rem;
@@ -1162,7 +1159,7 @@ strong {
     padding-right: 4rem;
 
     font-weight: 700;
-    font-size: 1.6rem;
+    font-size: 2.4rem;
     background-color: #49C356;
     color: #FFFFFF;
 
@@ -1339,6 +1336,7 @@ strong {
 
     background-color: #002D43;
     color: #F0F1F3;
+    text-align: center;
 }
 
 .footerLgpdWrapper {
@@ -1352,6 +1350,7 @@ strong {
 
 .footerLgpdTitleWrapper{
     display: flex;
+    justify-content: center;
 
     font-size: large;
     font-weight: 600;
