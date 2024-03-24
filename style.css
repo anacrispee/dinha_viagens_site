@@ -757,9 +757,9 @@ nav {
 #itemsMenuNav {
     display: none;
     position: fixed;
-    top: 8rem;
+    top: 4rem;
     right: 0;
-    width: 30rem;
+    width: 15rem;
     height: fit-content;
     background-color: #002D43;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
@@ -768,15 +768,15 @@ nav {
 
 .itemsMenuNavList {
     display: block;
-    padding-left: 3.4rem;
+    padding: 0.2rem;
 
     list-style: none;
     color: white;
 }
 
 .itemMenu {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
 }
 
 /* Nav links */
@@ -817,8 +817,8 @@ nav {
     align-items: center;
     justify-content: center;
 
-    padding-left: 0.4rem;
-    padding-right: 0.4rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
     padding-top: 8rem;
     padding-bottom: 1rem;
 
@@ -837,26 +837,26 @@ nav {
 }
 
 .homeHeartImage {
-    width: 20rem;
-    max-width: 20rem;
+    width: 25rem;
+    max-width: 25rem;
     padding: 0.4rem;
     padding-bottom: 0rem;
     margin: 0rem;
 }
 
 .homeContentTitle {
-    font-size: 3rem;
+    font-size: 6rem;
     font-weight: 800;
-    line-height: 3.4rem;
-    padding: 0.8rem;
+    line-height: 5rem;
+    padding: 1rem;
     margin: 0rem;
 }
 
 .homeContentSubtitle {
-    font-size: 2rem;
+    font-size: 3.8rem;
     font-weight: 100;
-    line-height: 2.4rem;
-    padding: 0.4em;
+    line-height: 3.6rem;
+    padding: 1rem;
     margin: 0rem;
 }
 
@@ -870,18 +870,18 @@ nav {
     margin-right: 0.4rem;
     margin-bottom: 0.4rem;
 
-    padding-top: 2.4rem;
-    padding-bottom: 2.4rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
 
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 1.6rem;
     background-color: #F48120;
     color: #FFFFFF;
 
     border-style: none;
-    border-radius: 6rem;
+    border-radius: 3.2rem;
 
     box-shadow: 4px 4px 7px 0px #00000040;
 }
@@ -894,21 +894,21 @@ nav {
 #homeExploreButton {
     margin-left: 0.4rem;
     margin-right: 0.4rem;
-    margin-top: 1rem;
+    margin-top: 0.4rem;
 
-    padding-top: 2.4rem;
-    padding-bottom: 2.4rem;
-    padding-left: 3.4rem;
-    padding-right: 3.4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
 
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 1.6rem;
     background-color: transparent;
     color: #F48120;
 
     border-style: none;
     border: solid 0.2rem #F48120;
-    border-radius: 6rem;
+    border-radius: 3.2rem;
 }
 
 #homeExploreButton:hover {
@@ -921,7 +921,7 @@ nav {
 /* Home Section Image */
 
 .homeImage {
-    max-width: 24rem;
+    max-width: 40rem;
 
     padding-top: 4rem;
     padding-bottom: 2rem;
@@ -957,7 +957,7 @@ nav {
 }
 
 .aboutImage {
-    max-width: 20rem;
+    max-width: 40rem;
 }
 
 /* About Us Section Text*/
@@ -975,7 +975,7 @@ nav {
 
 .aboutContentTitle {
     font-weight: 800;
-    font-size: 2.4rem;
+    font-size: 4rem;
 }
 
 strong {
@@ -983,12 +983,12 @@ strong {
 }
 
 .aboutContentTextItem {
-    font-size: 1rem;
+    font-size: 2.3rem;
 }
 
 .aboutContentQuote {
     font-family: 'Oooh Baby', cursive;
-    font-size: 1.2rem;
+    font-size: 2.6rem;
 }
 
 /* Itineraries Section */
@@ -1024,7 +1024,7 @@ strong {
 
 .menuItinerariesTitle {
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 4rem;
     padding: 0;
     padding: 0.8rem;
     margin: 0;
@@ -1033,13 +1033,13 @@ strong {
 .menuItinerariesOptions {
     display: flex;
     font-weight: 600;
-    font-size: 1.4rem;
+    font-size: 2.6rem;
 }
 
 #roadItinerariesOption,
 #airItinerariesOption {
-    margin-right: 0.8rem;
-    margin-left: 0.8rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
@@ -1071,7 +1071,7 @@ strong {
     height: fit-content;
     max-height: fit-content;
 
-    padding: 0.8rem;
+    padding: 1rem;
     margin: 1rem;
 
     background-color: #FFFFFF;
@@ -1079,22 +1079,24 @@ strong {
 }
 
 .itineraryCardImage {
-    width: 20rem;
-    max-width: 20rem;
+    width: 40rem;
+    max-width: 40rem;
     border-radius: 1rem;
 }
 
 .itineraryCardTitle {
-    width: 18rem;
+    width: 30rem;
     font-weight: 700;
-    font-size: 1.4rem;
+    font-size: 2.6rem;
 
     padding: 0;
     padding-left: 0.6rem;
     padding-right: 0.6rem;
 
     margin: 0;
-    padding-bottom: 0.4rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.8rem;
+
 }
 
 .tineraryCardSubTitleWrapper {
@@ -1110,12 +1112,13 @@ strong {
 
 .itineraryCardSubtitle {
     margin: 0;
+    padding-left: 1rem;
 
-    font-size: 1rem;
+    font-size: 1.4rem;
 }
 
 .localIcon {
-    width: 0.8rem;
+    width: 1.4rem;
 }
 
 .itinerariesFooterSpacer {
@@ -1147,19 +1150,19 @@ strong {
     padding: 0.2rem;
 
     color: #002D43;
-    font-size: 1rem;
+    font-size: 1.8rem;
     font-weight: 400;
 }
 
 #itinerariesCallToActionButton {
     margin: 0.2rem;
-    padding-top: 1.4rem;
-    padding-bottom: 1.4rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
 
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 1.6rem;
     background-color: #49C356;
     color: #FFFFFF;
 
@@ -1200,21 +1203,21 @@ strong {
 }
 
 .valuesBoxes {
-    width: 18rem;
-    max-width: 18rem;
-    height: 18rem;
-    max-height: 18rem;
+    width: 25rem;
+    max-width: 25rem;
+    height: 25rem;
+    max-height: 25rem;
 
     border: solid 1px white;
     border-radius: 0.4rem;
 
-    margin: 1rem;
-    padding: 1rem;
+    margin: 2rem;
+    padding: 2rem;
 
     text-align: center;
     align-items: center;
 
-    font-size: 1.2rem;
+    font-size: xx-large;
 }
 
 .valuesIcons {
@@ -1258,7 +1261,7 @@ strong {
 
 .galleryaDescriptionTitle {
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 4rem;
 
     margin-top: 0;
     margin-bottom: 0;
@@ -1266,8 +1269,8 @@ strong {
 }
 
 .galleryDescriptionText {
-    width: 20rem;
-    font-size: 1rem;
+    width: 40rem;
+    font-size: 2rem;
     padding-top: 0.8rem;
     padding-bottom: 0.8rem;
     margin: 0;
@@ -1276,13 +1279,13 @@ strong {
 #followUsButton {
     margin: 2rem;
 
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
 
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 2rem;
     background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);    color: #FFFFFF;
 
     border-style: none;
@@ -1314,8 +1317,8 @@ strong {
 }
 
 .galleryPhotos {
-    max-width: 20rem;
-    width: 20rem;
+    max-width: 24rem;
+    width: 24rem;
     padding: 0.8rem;
 }
 
@@ -1350,28 +1353,28 @@ strong {
 .footerLgpdTitleWrapper{
     display: flex;
 
-    font-size: 3;
+    font-size: large;
     font-weight: 600;
 }
 
 .footerLgpdTitleIcon {
-    width: 1rem;
+    width: 1.4rem;
     padding-right: 0.4rem;
 }
 
 .footerLgpdDescriptionWrapper {
-    font-size: 0.8rem;
+    font-size: large;
     font-weight: 300;
     padding-bottom: 0.8rem;
 }
 
 .footerLgpdIcon {
-    width: 1.8rem;
+    width: 2.4rem;
     max-width: 2.4rem;
 }
 
 .moreContentOptionsWrapper {
-    max-width: 30rem;
+    max-width: 40rem;
     display: flex;
     flex-wrap: wrap;
     padding-top: 1rem;
@@ -1383,12 +1386,12 @@ strong {
 }
 
 .moreContentOptionsTitle {
-    font-size: 0.8rem;
+    font-size: large;
     font-weight: 600;
 }
 
 .moreContentOption {
-    font-size: 0.8rem;
+    font-size: large;
     font-weight: 300;
 }
 
@@ -1403,11 +1406,12 @@ strong {
     background-color: #002D43;
     color: #F0F1F3;
     
-    font-size: 0.8rem;
+    font-size: xx-small;
 }
 
 .footerRowDescription {
     display: flex;
+    font-size: large;
     justify-content: space-between;
 }
 
